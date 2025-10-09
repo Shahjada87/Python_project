@@ -27,7 +27,7 @@ if pepperoni == "Y" or pepperoni == "y":
         bill += 2
     else:
         bill += 3
-elif extra_cheese == "y" or extra_cheese == "Y":
+if extra_cheese == "y" or extra_cheese == "Y":
     bill += 1
 
 
